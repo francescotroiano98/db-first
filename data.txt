@@ -1,0 +1,15 @@
+
+Nome della tabella: Auto
+
+id
+targa
+marca
+modello
+kilometri
+cavalli
+carburazione
+anno
+cambio
+emissioni
+colore
+prezzo
