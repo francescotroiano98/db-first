@@ -1,15 +1,15 @@
 
 Nome della tabella: Auto
 
-id
-targa
-marca
-modello
-kilometri
-cavalli
-carburazione
-anno
-cambio
-emissioni
-colore
-prezzo
+id........................intero................SMALLINT..................UNSIGNED PRIMARY_KEY AUTOINCREMENT
+targa.....................stringa...............VARCHAR(10)...............NULL UNIQUE
+marca.....................stringa...............VARCHAR(50)...............NOT_NULL
+modello...................stringa...............VARCHAR(50)...............NOT_NULL
+kilometri.................intero................MEDIUMINT.................NULL
+cavalli...................intero................SMALLINT..................NOT_NULL
+carburazione..............stringa...............VARCHAR(50)...............NOT_NULL
+anno......................data..................YEAR......................NOT_NULL
+cambio....................stringa...............VARCHAR(30)...............NOT_NULL
+emissioni.................intero................TINYINT...................NULL
+colore....................stringa...............VARCHAR(255)..............NOT_NULL
+prezzo....................float.................FLOAT(10,2)...............NULL
